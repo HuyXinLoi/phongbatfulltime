@@ -186,5 +186,73 @@
       "ticket_price": 1100000,
       "status": "paid"
     }
+  ],
+  "discounts": [
+    {
+      "discount_id": 1,
+      "code": "XMAS2024",
+      "description": "Christmas discount",
+      "discount_percentage": 10,
+      "expiry_date": "2024-12-31"
+    },
+    {
+      "discount_id": 2,
+      "code": "NEWYEAR2024",
+      "description": "New Year discount",
+      "discount_percentage": 15,
+      "expiry_date": "2025-01-10"
+    }
+  ],
+  "flights": [
+    {
+      "flight_id": 1,
+      "departure_city": "Hanoi",
+      "arrival_city": "Ho Chi Minh City",
+      "departure_time": "2024-12-25 08:00:00",
+      "arrival_time": "2024-12-25 10:30:00",
+      "airline": "Vietnam Airlines",
+      "price": 1500000,
+      "available_seats": 50
+    },
+    {
+      "flight_id": 2,
+      "departure_city": "Ho Chi Minh City",
+      "arrival_city": "Hanoi",
+      "departure_time": "2024-12-26 14:00:00",
+      "arrival_time": "2024-12-26 16:30:00",
+      "airline": "VietJet Air",
+      "price": 1200000,
+      "available_seats": 45
+    },
+    {
+      "flight_id": 3,
+      "departure_city": "Hanoi",
+      "arrival_city": "Da Nang",
+      "departure_time": "2024-12-27 07:30:00",
+      "arrival_time": "2024-12-27 09:00:00",
+      "airline": "Bamboo Airways",
+      "price": 1000000,
+      "available_seats": 60
+    },
+    {
+      "flight_id": 4,
+      "departure_city": "Da Nang",
+      "arrival_city": "Hanoi",
+      "departure_time": "2024-12-28 18:00:00",
+      "arrival_time": "2024-12-28 19:30:00",
+      "airline": "Vietnam Airlines",
+      "price": 1400000,
+      "available_seats": 40
+    },
+    {
+      "flight_id": 5,
+      "departure_city": "Ho Chi Minh City",
+      "arrival_city": "Da Nang",
+      "departure_time": "2024-12-29 09:00:00",
+      "arrival_time": "2024-12-29 11:30:00",
+      "airline": "VietJet Air",
+      "price": 1100000,
+      "available_seats": 50
+    }
   ]
 }
